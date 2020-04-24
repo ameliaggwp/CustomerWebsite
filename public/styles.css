@@ -32,12 +32,7 @@ a:hover {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  height: 384px;
-  
-  }
-
-div.container6 p {
-  margin: 0 }
+  height: 50vh;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -48,10 +43,14 @@ div.container6 p {
 .card-icon {
   width: 3em;
   height: auto;
+  padding-top: 16%;
+  padding-bottom: 16%;
 }
-
 
 .bullet-item::before {
   content: "✓";
   margin-right: 0.5em;
+}
+div .price {
+  padding-top: 16%;
 }

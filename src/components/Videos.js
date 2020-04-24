@@ -1,8 +1,8 @@
 import React from "react";
 
-const KEY = "AIzaSyCR71-QtUO-4lAiKYLS0YxdecSu-0-T_1I";
-
 class Videos extends React.Component {
+  state = { selectedVideo: null };
+
   render() {
     return (
       <iframe

@@ -14,7 +14,7 @@ const Card = ({ icon, price, service, description }) => {
           <h5 className="card-title">
             <div className="pricing-card service-card">{service}</div>
           </h5>
-          <div className="card-text text-center">{description}</div>
+          <div className="card-text">{description}</div>
           <div className="pricing-card price">{price}</div>
         </div>
       </div>
