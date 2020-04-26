@@ -1,18 +1,24 @@
 import React from "react";
+import youtube from "../apis/youtube";
+
+const KEY = "AIzaSyCR71-QtUO-4lAiKYLS0YxdecSu-0-T_1I";
 
 class Videos extends React.Component {
-  state = { selectedVideo: null };
+  componentDidMount() {
+    youtube.get("/playlistItems", {
+      params: {
+        part: "snippet",
+        playlistId: "PLv59FtNXbkbK-Dnlm8Sjz0hDyspmO86zE",
+        key: KEY,
+      },
+    });
+  }
 
   render() {
     return (
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/videoseries?list=PLv59FtNXbkbK-Dnlm8Sjz0hDyspmO86zE"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      <div className="Container">
+        <h1>Videos</h1>
+      </div>
     );
   }
 }
