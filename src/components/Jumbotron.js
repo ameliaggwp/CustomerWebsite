@@ -13,9 +13,6 @@ const Jumbotron = () => {
           This is some more text to talk about the services and languages you
           might expect to be tutored in.
         </p>
-        <a className="btn btn-secondary btn-lg" href="#" role="button">
-          Learn more
-        </a>
       </div>
     </div>
   );

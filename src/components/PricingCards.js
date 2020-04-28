@@ -6,7 +6,7 @@ import fileIcon from "./assets/file-richtext.svg";
 const Card = ({ icon, price, service, description }) => {
   return (
     <div className="col-sm">
-      <div className="card text-center">
+      <div className="card text-center" id="card">
         <div className="card-body">
           <div className="pricing-card icon">
             <img className="card-icon" src={icon} alt={icon} />
