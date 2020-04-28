@@ -1,5 +1,4 @@
 footer {
-  font: white;
   background-color: lightgray;
   padding: 4em 0;
 }
@@ -25,7 +24,7 @@ a:hover {
 }
 
 .row {
-  padding: 1.5em 1.5em 1.5em 1.5em;
+  padding: 1.5em;
 }
 
 #card {
@@ -67,4 +66,15 @@ div .price {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.headshot {
+  border-radius: 50%;
+  height: auto;
+  width: 25vw;
+}
+
+.breaker {
+  padding: 2em 0;
+  text-align: center;
 }

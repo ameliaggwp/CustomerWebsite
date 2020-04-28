@@ -2,7 +2,7 @@ import React from "react";
 import Jumbotron from "./Jumbotron";
 import PricingCards from "./PricingCards";
 
-const Home = () => {
+const Classes = () => {
   return (
     <React.Fragment>
       <Jumbotron />
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Classes;

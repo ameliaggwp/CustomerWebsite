@@ -6,19 +6,13 @@ const Header = () => {
     <div className="container">
       <ul className="nav justify-content-center">
         <li className="nav-item nav-home">
-          <Link to="/" className="nav-link">
-            Abby P
-          </Link>
+          <a className="nav-link">Abby P</a>
         </li>
         <li className="nav-item">
-          <Link to="/videos" className="nav-link">
-            Videos
-          </Link>
+          <a className="nav-link">Videos</a>
         </li>
         <li className="nav-item">
-          <Link to="/about" className="nav-link">
-            About
-          </Link>
+          <a className="nav-link">About</a>
         </li>
       </ul>
     </div>

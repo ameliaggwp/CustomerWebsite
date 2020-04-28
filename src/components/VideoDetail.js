@@ -16,7 +16,7 @@ const VideoDetail = ({ video }) => {
           allowFullScreen
         />
       </div>
-      <div className="">
+      <div>
         <h4 className=""> {video.snippet.title}</h4>
       </div>
     </div>
