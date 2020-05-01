@@ -7,7 +7,11 @@ const VideoList = ({ videos, onVideoSelect }) => {
       <VideoItem video={video} key={video.id} onVideoSelect={onVideoSelect} />
     );
   });
-  return <div className="card-columns">{renderedList}</div>;
+  return (
+    <div className="container video-container">
+      <div className="row">{renderedList}</div>
+    </div>
+  );
 };
 
 export default VideoList;

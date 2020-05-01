@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Classes from "./Classes";
-import Videos from "./Videos";
+import { Videos } from "./Videos";
 import About from "./About";
 import Footer from "./Footer";
 

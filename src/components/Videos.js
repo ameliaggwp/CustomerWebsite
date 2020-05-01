@@ -2,11 +2,16 @@ import React from "react";
 import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
+import arrowRight from "./assets/chevron-left.svg";
+import arrowLeft from "./assets/chevron-right.svg";
 
 const KEY = "AIzaSyCR71-QtUO-4lAiKYLS0YxdecSu-0-T_1I";
 
-class Videos extends React.Component {
-  state = { videos: [], selectedVideo: null };
+export class Videos extends React.Component {
+  state = {
+    videos: [],
+    selectedVideo: null,
+  };
 
   async componentDidMount() {
     const response = await youtube.get("/playlistItems", {
@@ -32,13 +37,7 @@ class Videos extends React.Component {
       <div className="container">
         <h1>Videos</h1>
         <VideoDetail video={this.state.selectedVideo} />
-        <VideoList
-          videos={this.state.videos}
-          onVideoSelect={this.onVideoSelect}
-        />
       </div>
     );
   }
 }
-
-export default Videos;

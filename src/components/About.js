@@ -3,7 +3,7 @@ import Headshot from "./assets/abbyp-headshot.JPG";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="container" id="section">
       <div className="row">
         <div className="col-sm-6">
           <img src={Headshot} className="headshot" />

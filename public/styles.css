@@ -10,6 +10,14 @@ a:hover {
   color: greenyellow;
 }
 
+body {
+  margin: 0;
+}
+
+#section {
+  height: 80vh;
+}
+
 .social-follow {
   display: flex;
   align-items: center;
@@ -21,10 +29,6 @@ a:hover {
   max-width: 50px;
   height: auto;
   padding: 5px;
-}
-
-.row {
-  padding: 1.5em;
 }
 
 #card {
@@ -71,10 +75,33 @@ div .price {
 .headshot {
   border-radius: 50%;
   height: auto;
-  width: 25vw;
+  width: 16vw;
 }
 
 .breaker {
   padding: 2em 0;
   text-align: center;
+}
+
+.col {
+  transition: 1s transform;
+  transform-origin: top center;
+  float: left;
+}
+
+.hover-card:hover {
+  transform: scale(2);
+}
+
+.hover-card:hover .overlay-title {
+  opacity: 1;
+  touch-action: auto;
+  transform: scale(1);
+}
+
+.content {
+  width: 200%;
+  height: 200;
+  transform: scale(0.5) translateZ(0px);
+  transform-origin: top left;
 }
