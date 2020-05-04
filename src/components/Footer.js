@@ -1,9 +1,9 @@
 import React from "react";
-import Twitter from "./assets/Twitter_Logo_Blue.png";
-import Facebook from "./assets/f_logo_RGB-Blue_100.png";
+import Twitter from "./assets/Twitter_Logo_WhiteOnImage.svg";
+import Facebook from "./assets/f_logo_RGB-White_144.png";
 import Instagram from "./assets/glyph-logo_May2016.png";
-import Twitch from "./assets/TwitchGlitchPurple.png";
-import Youtube from "./assets/yt_icon_rgb.png";
+import Twitch from "./assets/TwitchGlitchWhite.svg";
+import Youtube from "./assets/yt_icon_mono_dark.png";
 
 const Footer = () => {
   return (
@@ -23,7 +23,12 @@ const Footer = () => {
             <img className="social-icon" src={Youtube} alt="youtube" />
           </a>
           <a href="https://www.instagram.com/abbyjpee/">
-            <img className="social-icon" src={Instagram} alt="instagram" />
+            <img
+              className="social-icon"
+              id="invert"
+              src={Instagram}
+              alt="instagram"
+            />
           </a>
         </div>
       </div>

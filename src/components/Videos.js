@@ -4,6 +4,7 @@ import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 import arrowRight from "./assets/chevron-left.svg";
 import arrowLeft from "./assets/chevron-right.svg";
+import VideoItem from "./VideoItem";
 
 const KEY = "AIzaSyCR71-QtUO-4lAiKYLS0YxdecSu-0-T_1I";
 
@@ -34,9 +35,14 @@ export class Videos extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <h1>Videos</h1>
-        <VideoDetail video={this.state.selectedVideo} />
+      <div className="container videos">
+        <div className="row">
+          <VideoDetail video={this.state.selectedVideo} />
+          <VideoList
+            videos={this.state.videos}
+            onVideoSelect={this.onVideoSelect}
+          />
+        </div>
       </div>
     );
   }

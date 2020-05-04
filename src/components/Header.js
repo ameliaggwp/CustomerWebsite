@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="header">
       <ul className="nav justify-content-center">
         <li className="nav-item nav-home">
           <a className="nav-link">Abby P</a>

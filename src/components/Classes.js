@@ -4,10 +4,9 @@ import PricingCards from "./PricingCards";
 
 const Classes = () => {
   return (
-    <React.Fragment>
-      <Jumbotron />
+    <div className="pricing-container">
       <PricingCards />
-    </React.Fragment>
+    </div>
   );
 };
 

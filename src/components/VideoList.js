@@ -8,7 +8,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
     );
   });
   return (
-    <div className="container video-container">
+    <div className="col-sm-6 video-list">
       <div className="row">{renderedList}</div>
     </div>
   );
