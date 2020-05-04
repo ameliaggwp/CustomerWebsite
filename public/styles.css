@@ -39,18 +39,17 @@ a:hover {
   z-index: 1;
 }
 
-.col-6.video-item:hover + .video-card.title {
+.video-card.title {
   position: absolute;
-  z-index: 999;
   margin: 0 auto;
   left: 0;
   right: 0;
   text-align: center;
   top: 50%; /* Adjust this value to move the positioned div up and down */
-  background: rgba(0, 0, 0, 0.5);
-  font-family: Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
   color: #fff;
-  width: 60%; /* Set the width of the positioned div */
+  width: 80%; /* Set the width of the positioned div */
 }
 
 /*-------------- Classes/Cards Stlying ----------*/
