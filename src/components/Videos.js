@@ -2,9 +2,6 @@ import React from "react";
 import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
-import arrowRight from "./assets/chevron-left.svg";
-import arrowLeft from "./assets/chevron-right.svg";
-import VideoItem from "./VideoItem";
 
 const KEY = "AIzaSyCR71-QtUO-4lAiKYLS0YxdecSu-0-T_1I";
 
@@ -30,12 +27,13 @@ export class Videos extends React.Component {
   }
 
   onVideoSelect = (video) => {
+    console.log(video);
     this.setState({ selectedVideo: video });
   };
 
   render() {
     return (
-      <div className="container videos">
+      <div className="container videos" id="Videos">
         <div className="row">
           <VideoDetail video={this.state.selectedVideo} />
           <VideoList

@@ -8,6 +8,7 @@ import Youtube from "./assets/yt_icon_mono_dark.png";
 const Footer = () => {
   return (
     <footer>
+      <a href="#Top">Top^</a>
       <div className="container-fluid">
         <div className="social-follow">
           <a href="https://twitter.com/abbyjpee">
