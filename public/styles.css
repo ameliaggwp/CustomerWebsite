@@ -32,13 +32,12 @@ a:hover {
   height: 60vh;
 }
 
-/*--------------Video Detail Section--------------*/
+/*--------------Video List Section--------------*/
 
 .col-sm-6.video-list {
   height: 60vh;
   overflow: scroll;
   overflow-x: hidden;
-  background-color: #999999;
 }
 /*--------------Animations for video selector--------------*/
 .video-item {
@@ -62,6 +61,12 @@ a:hover {
   font-weight: 700;
   color: #fff;
   width: 80%; /* Set the width of the positioned div */
+}
+
+/* */
+
+.col-sm-6.video-detail {
+  background-color: #999999;
 }
 
 /*-------------- Classes/Cards Stlying ----------*/
