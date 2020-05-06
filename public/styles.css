@@ -1,12 +1,21 @@
 /*--------------- basic styling --------------- */
 html,
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
-  font-weight: lighter;
-  scroll-behavior: smooth;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  flex: 1;
 }
 
 /*--------------Header and Link Styling----------*/
@@ -14,7 +23,7 @@ a {
   color: black;
 }
 a:hover {
-  color: greenyellow;
+  text-decoration: underline;
 }
 
 .header {
@@ -63,7 +72,10 @@ a:hover {
   width: 80%; /* Set the width of the positioned div */
 }
 
-/* */
+/*-------------- Video Detail ----------*/
+
+h4.video-title {
+}
 
 .col-sm-6.video-detail {
   background-color: #999999;
@@ -104,15 +116,72 @@ a:hover {
 
 /*--------------Footer Styling--------------*/
 footer {
-  background-color: lightgray;
-  padding: 4em 0;
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem /*200px*/;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+  .ft-main {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+
+.ft-credits {
+  padding: 0.9375rem 1.875rem;
+  background-color: #555;
+}
+.ft-credits-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-credits-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-credits-list li:nth-last-child(2) {
+  flex: 1; /* same as flex-grow: 1; */
 }
 
 /*-------------- Styling for social brands----------*/
-.social-follow {
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
   display: flex;
-  align-items: center;
   justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
 }
 
 img.social-icon {
