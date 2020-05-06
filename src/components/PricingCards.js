@@ -11,9 +11,7 @@ const Card = ({ icon, price, service, description }) => {
           <div className="pricing-card icon">
             <img className="card-icon" src={icon} alt={icon} />
           </div>
-          <h5 className="card-title">
-            <div className="pricing-card service-card">{service}</div>
-          </h5>
+          <h3 className="card-title">{service}</h3>
           <div className="card-text">
             {description}
             <br />
@@ -29,17 +27,17 @@ const Card = ({ icon, price, service, description }) => {
 //Intended for use with 3 card components
 const PricingCards = () => {
   return (
-    <div className="container">
-      <div className="row align-equal row-padding">
+    <div className="container pricing-container" id="Tutoring">
+      <div className="row">
         <Card
           icon={fileIcon}
           price="15$/flat-rate"
           service="Worksheet"
           description={
-            <div className="description">
-              <div className="bullet-item">PDF lesson worksheets</div>
-              <div className="bullet-item">Dialogue videos</div>
-            </div>
+            <ul>
+              <li>PDF lesson worksheets</li>
+              <li> Dialogue videos</li>
+            </ul>
           }
         />
         <Card
@@ -47,10 +45,10 @@ const PricingCards = () => {
           price="30$/30 mins"
           service="Conversation Practice"
           description={
-            <div className="description">
-              <div className="bullet-item">Video-chat session</div>
-              <div className="bullet-item">Journal review</div>
-            </div>
+            <ul>
+              <li>Video-chat session</li>
+              <li>Journal review</li>
+            </ul>
           }
         />
         <Card
@@ -58,11 +56,11 @@ const PricingCards = () => {
           price="60$/1 hr"
           service="Personal Tutoring"
           description={
-            <div className="description">
-              <div className="bullet-item">PDF lesson worksheet</div>
-              <div className="bullet-item">Video-chat session</div>
-              <div className="bullet-item">Formulated individual lesson</div>
-            </div>
+            <ul>
+              <li>PDF lesson worksheet</li>
+              <li>Video-chat session</li>
+              <li>Formulated individual lesson</li>
+            </ul>
           }
         />
       </div>

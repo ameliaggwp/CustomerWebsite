@@ -62,7 +62,7 @@ const Footer = () => {
               <a href="#Top">Top^</a>
             </li>
             <li>
-              <p>Website design by Amelia Dominguez</p>
+              <p>Website by Amelia Dominguez</p>
             </li>
           </ul>
         </section>

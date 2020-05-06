@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "./Header";
-import Classes from "./Classes";
+
 import { Videos } from "./Videos";
 import About from "./About";
 import Footer from "./Footer";
+import PricingCards from "./PricingCards";
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
       <Header />
       <About />
       <Videos />
-      <Classes />
+      <PricingCards />
       <Footer />
     </div>
   );

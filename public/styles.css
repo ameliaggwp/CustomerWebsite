@@ -74,46 +74,33 @@ a:hover {
 
 /*-------------- Video Detail ----------*/
 
-h4.video-title {
-}
-
 .col-sm-6.video-detail {
   background-color: #999999;
 }
 
-/*-------------- Classes/Cards Stlying ----------*/
-.pricing-container {
-  margin-top: 10vh;
-  height: 80vh;
-}
+/*--------------  Pricing Cards----------*/
 
-#card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  height: 50vh;
-}
-
-/*--------------  On mouse-over, add a deeper shadow----------*/
-#card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card-icon {
-  width: 3em;
-  height: auto;
-  padding-top: 16%;
-  padding-bottom: 16%;
+.card.text-center {
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 100%;
+  position: relative;
 }
 
 .card.text-center {
   overflow: auto;
 }
 
-.bullet-item::before {
-  content: "✓";
-  margin-right: 0.5em;
+.card-text ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
+.card-text li {
+  padding: 10px 0;
+}
 /*--------------Footer Styling--------------*/
 footer {
   background-color: #555;
