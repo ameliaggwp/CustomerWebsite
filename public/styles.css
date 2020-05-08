@@ -5,8 +5,12 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  min-height: 100vh;
+
   flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+div {
+  border-radius: 5px;
 }
 
 ul {
@@ -16,6 +20,10 @@ ul {
 
 .container {
   flex: 1;
+}
+
+.col-sm-6 {
+  height: 500px;
 }
 
 /*--------------Header and Link Styling----------*/
@@ -30,21 +38,52 @@ a:hover {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+.nav-link.main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  vertical-align: bottom;
+  line-height: 50px;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  vertical-align: bottom;
+  line-height: 50px;
+}
+li.nav-item {
+  display: inline;
+  float: right;
+}
 /*-------------- About Section ----------*/
+
+article {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+div.profile-text {
+  display: table;
+}
 
 .col-sm-6.profile-pic {
   background-color: #666666;
-  height: 60vh;
 }
 
-.col-sm-6.profile-text {
-  height: 60vh;
+.breaker {
+  color: #e0ebe8;
+  margin: 12px;
 }
 
 /*--------------Video List Section--------------*/
 
 .col-sm-6.video-list {
-  height: 60vh;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -54,9 +93,11 @@ a:hover {
   display: inline-block;
   padding: 10px;
 }
+
 .video-item:hover {
   transform: scale(1.1);
   z-index: 1;
+  cursor: pointer;
 }
 
 .video-card.title {
@@ -75,10 +116,37 @@ a:hover {
 /*-------------- Video Detail ----------*/
 
 .col-sm-6.video-detail {
-  background-color: #999999;
+  background-color: #eee;
+}
+
+.video-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.wrapper {
+  margin-top: 10%;
 }
 
 /*--------------  Pricing Cards----------*/
+#card {
+  height: 500px;
+}
+
+img.card-icon {
+  height: 48px;
+  margin: 12px;
+}
+
+.card-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.pricing-container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 
 .card.text-center {
   margin: 0 auto;
@@ -92,7 +160,7 @@ a:hover {
 }
 
 .card-text ul {
-  margin: 0;
+  margin: 24 24;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -175,6 +243,13 @@ img.social-icon {
   max-width: auto;
   height: 50px;
   padding: 5px;
+  fill: #fff;
+}
+
+#twitter {
+  max-width: auto;
+  height: 50px;
+  padding: 0px;
   fill: #fff;
 }
 

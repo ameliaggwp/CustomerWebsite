@@ -1,5 +1,5 @@
 import React from "react";
-import Twitter from "./assets/Twitter_Logo_WhiteOnImage.svg";
+import Twitter from "./assets/Twitter_Logo_Blue.svg";
 import Facebook from "./assets/f_logo_RGB-White_144.png";
 import Instagram from "./assets/glyph-logo_May2016.png";
 import Twitch from "./assets/TwitchGlitchWhite.svg";
@@ -24,7 +24,12 @@ const Footer = () => {
           <ul className="ft-social-list">
             <li>
               <a href="https://twitter.com/abbyjpee">
-                <img className="social-icon" src={Twitter} alt="twitter" />
+                <img
+                  className="social-icon"
+                  id="twitter"
+                  src={Twitter}
+                  alt="twitter"
+                />
               </a>
             </li>
             <li>
@@ -59,7 +64,7 @@ const Footer = () => {
         <section className="ft-credits">
           <ul className="ft-credits-list">
             <li>
-              <a href="#Top">Top^</a>
+              <a href="#Top">Top ^</a>
             </li>
             <li>
               <p>Website by Amelia Dominguez</p>

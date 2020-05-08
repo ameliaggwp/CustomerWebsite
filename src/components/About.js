@@ -2,11 +2,11 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="container-xl about" id="About">
+    <div id="About">
       <div className="row">
         <div className="col-sm-6 profile-pic"></div>
         <div className="col-sm-6 profile-text">
-          <article>
+          <article className="profile-text">
             Hey, it's me, Abby P! WADDUP, MY P-PLE! Living in South Korea From
             California, USA My contents: vlogs, culture, language, travel, and
             more!

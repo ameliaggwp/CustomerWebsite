@@ -8,13 +8,15 @@ import PricingCards from "./PricingCards";
 
 const App = () => {
   return (
-    <div>
+    <React.Fragment>
       <Header />
-      <About />
-      <Videos />
-      <PricingCards />
+      <div className="container">
+        <About />
+        <Videos />
+        <PricingCards />
+      </div>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 

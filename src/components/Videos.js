@@ -33,7 +33,7 @@ export class Videos extends React.Component {
 
   render() {
     return (
-      <div className="container videos" id="Videos">
+      <div className="videos" id="Videos">
         <div className="row">
           <VideoList
             videos={this.state.videos}

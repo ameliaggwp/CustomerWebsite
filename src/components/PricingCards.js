@@ -11,10 +11,10 @@ const Card = ({ icon, price, service, description }) => {
           <div className="pricing-card icon">
             <img className="card-icon" src={icon} alt={icon} />
           </div>
-          <h3 className="card-title">{service}</h3>
+
+          <h4 className="card-title">{service}</h4>
           <div className="card-text">
             {description}
-            <br />
             <br />
             {price}
           </div>
@@ -27,7 +27,7 @@ const Card = ({ icon, price, service, description }) => {
 //Intended for use with 3 card components
 const PricingCards = () => {
   return (
-    <div className="container pricing-container" id="Tutoring">
+    <div className="pricing-container" id="Tutoring">
       <div className="row">
         <Card
           icon={fileIcon}
@@ -36,7 +36,7 @@ const PricingCards = () => {
           description={
             <ul>
               <li>PDF lesson worksheets</li>
-              <li> Dialogue videos</li>
+              <li>Dialogue videos</li>
             </ul>
           }
         />
