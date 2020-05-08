@@ -12,12 +12,8 @@ const Footer = () => {
       <footer>
         {/* Footer Main */}
         <section className="ft-main">
-          <div className="ft-main-item">
-            This is where the text bubble will be col 1
-          </div>
-          <div className="ft-main-item">
-            This is where the picture of Abby will be col 2
-          </div>
+          <div className="ft-main-item">Can put brand info in here etc</div>
+          <div className="ft-main-item">Can put more info here dunno</div>
         </section>
         {/* Footer Main */}
         <section className="ft-social">

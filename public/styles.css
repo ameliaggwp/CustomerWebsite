@@ -73,7 +73,7 @@ div.profile-text {
 }
 
 .col-sm-6.profile-pic {
-  background-color: #666666;
+  border: solid #eee 1px;
 }
 
 .breaker {
@@ -116,13 +116,14 @@ div.profile-text {
 /*-------------- Video Detail ----------*/
 
 .col-sm-6.video-detail {
-  background-color: #eee;
+  border: solid #eee 1px;
 }
 
 .video-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  margin: 10px;
+
+  text-align: center;
 }
 
 .wrapper {

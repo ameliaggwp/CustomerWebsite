@@ -29,6 +29,11 @@ const PricingCards = () => {
   return (
     <div className="pricing-container" id="Tutoring">
       <div className="row">
+        <div className="col">
+          <h1>Learn with Abby</h1>
+        </div>
+      </div>
+      <div className="row">
         <Card
           icon={fileIcon}
           price="15$/flat-rate"
