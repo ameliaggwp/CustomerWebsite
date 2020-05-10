@@ -3,8 +3,9 @@ import Chat from "./assets/chat-fill.svg";
 
 const Inquiries = () => {
   return (
-    <div>
-      <img src={Chat} alt="Chat" className="chat-bubble" />
+    <div className="row">
+      <div className="col-sm chat-bubble">Bubble</div>
+      <div className="col-sm chat-pic">Pic</div>
     </div>
   );
 };

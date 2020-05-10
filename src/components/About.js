@@ -4,7 +4,9 @@ const About = () => {
   return (
     <div id="About">
       <div className="row">
-        <div className="col-sm-6 profile-pic"></div>
+        <div className="col-sm-6 profile-pic">
+          <div className="profile-pic-inner"></div>
+        </div>
         <div className="col-sm-6 profile-text">
           <article className="profile-text">
             Hey, it's me, Abby P! WADDUP, MY P-PLE! Living in South Korea From
