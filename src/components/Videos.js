@@ -35,9 +35,7 @@ export class Videos extends React.Component {
     return (
       <div className="videos" id="Videos">
         <div className="row">
-          <div className="col">
-            <h1>Videos</h1>
-          </div>
+          <div className="col">. . .</div>
         </div>
         <div className="row">
           <VideoList

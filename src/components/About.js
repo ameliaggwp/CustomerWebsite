@@ -11,7 +11,7 @@ const About = () => {
               <img src={profilePic} />
             </div>
             <div className="profile-blurb">
-              <p>
+              <p className="animate__bounce">
                 Hey, it's me, Abby P!
                 <br />
                 WADDUP, MY P-PLE!
