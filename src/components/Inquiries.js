@@ -1,11 +1,16 @@
 import React from "react";
-import Chat from "./assets/chat-fill.svg";
+import inquiriesPic from "./assets/Crop2.png";
 
 const Inquiries = () => {
   return (
     <div className="row">
-      <div className="col-sm chat-bubble">Bubble</div>
-      <div className="col-sm chat-pic">Pic</div>
+      <div className="col-sm inquiries-info">
+        This is where we'll put the email info/ info about serious inquiries
+        only
+      </div>
+      <div className="col-sm inquiries-pic">
+        <img src={inquiriesPic} />
+      </div>
     </div>
   );
 };
