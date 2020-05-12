@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container header">
       <div className="row">
         <div className="col-md-4 col-xs-4">
           <a href="#About" className="navbar-brand nav-link main">

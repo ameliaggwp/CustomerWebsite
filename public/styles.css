@@ -32,11 +32,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.header {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
 .nav-link.main {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
@@ -120,6 +115,10 @@ div.profile-text {
 }
 
 /*--------------Video List Section--------------*/
+.videos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .col-sm-6.video-list {
   overflow: scroll;
@@ -164,18 +163,22 @@ div.profile-text {
 }
 
 /*--------------  Pricing Cards----------*/
+h1.pricing {
+  text-align: center;
+}
+
 #card {
   height: 500px;
 }
 
 img.card-icon {
-  height: 48px;
-  margin: 12px;
+  height: 200px;
 }
 
 .card-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
+  color: #494848;
 }
 .pricing-container {
   margin-top: 1%;
@@ -187,9 +190,6 @@ img.card-icon {
   min-width: 280px;
   max-width: 100%;
   position: relative;
-}
-
-.card.text-center {
   overflow: auto;
 }
 
@@ -198,6 +198,11 @@ img.card-icon {
   padding: 0;
   list-style: none;
   text-align: center;
+  color: #909090;
+}
+
+.price {
+  color: #494848;
 }
 
 .card-text li {

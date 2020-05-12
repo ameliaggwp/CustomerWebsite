@@ -1,7 +1,7 @@
 import React from "react";
-import chatIcon from "./assets/chat-quote-fill.svg";
-import peopleIcon from "./assets/people-fill.svg";
-import fileIcon from "./assets/file-richtext.svg";
+import chatIcon from "./assets/Chat.png";
+import tutorIcon from "./assets/Tutoring.png";
+import fileIcon from "./assets/Docicon.png";
 
 const Card = ({ icon, price, service, description }) => {
   return (
@@ -15,8 +15,7 @@ const Card = ({ icon, price, service, description }) => {
           <h4 className="card-title">{service}</h4>
           <div className="card-text">
             {description}
-            <br />
-            {price}
+            <div className="price">{price}</div>
           </div>
         </div>
       </div>
@@ -30,7 +29,7 @@ const PricingCards = () => {
     <div className="pricing-container" id="Tutoring">
       <div className="row">
         <div className="col">
-          <h1>Learn with Abby</h1>
+          <h1 className="pricing">Learn with Abby</h1>
         </div>
       </div>
       <div className="row">
@@ -57,7 +56,7 @@ const PricingCards = () => {
           }
         />
         <Card
-          icon={peopleIcon}
+          icon={tutorIcon}
           price="60$/1 hr"
           service="Personal Tutoring"
           description={
