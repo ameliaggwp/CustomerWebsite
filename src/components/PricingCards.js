@@ -51,7 +51,7 @@ const PricingCards = () => {
           description={
             <ul>
               <li>Video-chat session</li>
-              <li>Journal review</li>
+              <li>Dialogue videos</li>
             </ul>
           }
         />
@@ -61,9 +61,8 @@ const PricingCards = () => {
           service="Personal Tutoring"
           description={
             <ul>
-              <li>PDF lesson worksheet</li>
               <li>Video-chat session</li>
-              <li>Formulated individual lesson</li>
+              <li>Formulated individual lessons + worksheets</li>
             </ul>
           }
         />

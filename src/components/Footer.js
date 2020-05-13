@@ -10,11 +10,12 @@ const Footer = () => {
     <React.Fragment>
       <div className="container"></div>
       <footer>
-        {/* Footer Main */}
+        {/* Can add back in if more content needed in footer */}
+        {/*
         <section className="ft-main">
           <div className="ft-main-item">Can put brand info in here etc</div>
           <div className="ft-main-item">Can put more info here dunno</div>
-        </section>
+        </section> */}
         {/* Footer Main */}
         <section className="ft-social">
           <ul className="ft-social-list">
