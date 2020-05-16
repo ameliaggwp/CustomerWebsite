@@ -66,9 +66,9 @@ a:hover {
 }
 
 .nav-link.main {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Permanent Marker", cursive;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 40px;
   vertical-align: bottom;
   line-height: 50px;
 }
@@ -339,25 +339,16 @@ a:hover {
 img.social-icon {
   height: 50px;
   padding: 5px;
-  fill: #eee;
-}
-
-img.social-icon:hover {
-  fill: #ffffff;
+  fill: #fff;
 }
 
 #twitter {
   height: 50px;
   padding: 0px;
-  fill: #eee;
-}
-
-#twitter:hover {
-  fill: #ffffff;
 }
 
 img.social-icon::selection {
-  color: #eee;
+  color: #fff;
 }
 
 #invert {
