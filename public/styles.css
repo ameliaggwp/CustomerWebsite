@@ -345,7 +345,7 @@ img.social-icon {
 #twitter {
   height: 50px;
   padding: 0px;
-  fill: #fff;
+  fill: red;
 }
 
 img.social-icon::selection {
