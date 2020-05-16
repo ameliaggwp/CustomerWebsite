@@ -5,7 +5,7 @@ import fileIcon from "./assets/Docicon.png";
 
 const Card = ({ icon, price, service, description }) => {
   return (
-    <div className="col-sm">
+    <div className="col-sm pricing-col">
       <div className="card text-center" id="card">
         <div className="card-body">
           <div className="pricing-card icon">
@@ -26,7 +26,7 @@ const Card = ({ icon, price, service, description }) => {
 //Intended for use with 3 card components
 const PricingCards = () => {
   return (
-    <div className="pricing-container" id="Tutoring">
+    <div className="container pricing-container" id="Tutoring">
       <div className="row">
         <div className="col">
           <h1 className="pricing">Learn with Abby</h1>
@@ -36,7 +36,7 @@ const PricingCards = () => {
         <Card
           icon={fileIcon}
           price="15$/flat-rate"
-          service="Worksheet"
+          service="Worksheets"
           description={
             <ul>
               <li>PDF lesson worksheets</li>

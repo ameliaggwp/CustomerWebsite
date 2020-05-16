@@ -3,16 +3,23 @@ import inquiriesPic from "./assets/Crop2.png";
 
 const Inquiries = () => {
   return (
-    <div className="row">
-      <div className="col-sm">
-        <div className="inquiries-info">
-          To get started learning with me, or for other business inquiries,
-          please send me an email at official.abbypee@gmail.com. Serious
-          inquiries only please!
+    <div className="container">
+      <div className="row">
+        <div className="col-sm">
+          <div className="inquiries-info">
+            <p className="inquiries-info">
+              To get started learning with me, or for other business inquiries,
+              please send me an email at official.abbypee@gmail.com. Serious
+              inquiries only please!
+              <br />
+              <br />
+              Media Kit available on request!
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="col-sm inquiries-pic">
-        <img src={inquiriesPic} />
+        <div className="col-sm inquiries-pic">
+          <img src={inquiriesPic} />
+        </div>
       </div>
     </div>
   );

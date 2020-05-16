@@ -11,12 +11,12 @@ const App = () => {
   return (
     <React.Fragment>
       <Header />
-      <div className="container">
-        <About />
+      <About />
+      <div className="videos-pricing">
         <Videos />
         <PricingCards />
-        <Inquiries />
       </div>
+      <Inquiries />
       <Footer />
     </React.Fragment>
   );

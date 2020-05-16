@@ -33,13 +33,15 @@ export class Videos extends React.Component {
 
   render() {
     return (
-      <div className="videos" id="Videos">
-        <div className="row">
-          <VideoDetail video={this.state.selectedVideo} />
-          <VideoList
-            videos={this.state.videos}
-            onVideoSelect={this.onVideoSelect}
-          />
+      <div className="container">
+        <div className="videos" id="Videos">
+          <div className="row">
+            <VideoDetail video={this.state.selectedVideo} />
+            <VideoList
+              videos={this.state.videos}
+              onVideoSelect={this.onVideoSelect}
+            />
+          </div>
         </div>
       </div>
     );

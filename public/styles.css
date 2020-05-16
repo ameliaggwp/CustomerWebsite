@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Lato", sans-serif;
+  color: hsl(220, 72%, 18%);
 }
 
 ul {
@@ -23,12 +24,28 @@ ul {
   position: relative;
 }
 
+.videos-pricing {
+  background: linear-gradient(
+      transparent 0,
+      transparent 30%,
+      hsl(213, 88.8%, 91.1%) 30%,
+      hsl(213, 88.8%, 91.1%) 70%,
+      transparent 60%,
+      transparent 100%
+    )
+    no-repeat;
+}
+
 /*--------------Header and Link Styling----------*/
 a {
-  color: black;
+  color: hsl(220, 72%, 18%);
 }
 a:hover {
   text-decoration: underline;
+}
+
+.header {
+  background-color: hsl(11, 100%, 97.5%);
 }
 
 .nav-link.main {
@@ -52,6 +69,12 @@ li.nav-item {
   float: right;
 }
 /*-------------- About Section ----------*/
+.about {
+  margin: 0%;
+  background: linear-gradient(hsl(11, 100%, 97.5%) 40%, transparent 40%)
+    no-repeat;
+  background-color: hsl(0, 100%, 100%);
+}
 
 article {
   font-size: 24px;
@@ -64,11 +87,6 @@ article {
   align-items: center;
   justify-content: center;
   display: flex;
-  border-radius: 16px;
-}
-
-.col-sm-6.profile-text {
-  border-radius: 16px;
 }
 
 .profile-inner {
@@ -83,7 +101,6 @@ article {
 .profile-pic img {
   height: 300px;
   width: auto;
-  border-radius: 50%;
 }
 
 .profile-blurb {
@@ -94,10 +111,8 @@ article {
   width: 250px;
   align-items: center;
   justify-content: center;
-  display: flex;
   background-color: #fff;
   margin-top: 10px;
-  border-radius: 16px;
 }
 
 .profile-blurb p {
@@ -164,11 +179,12 @@ div.profile-text {
 /*--------------  Pricing Cards----------*/
 h1.pricing {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 #card {
   height: 400px;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 img.card-icon {
@@ -181,7 +197,6 @@ img.card-icon {
 .card-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  color: #494848;
 }
 .pricing-container {
   margin-top: 1%;
@@ -194,7 +209,7 @@ img.card-icon {
   max-width: 100%;
   position: relative;
   overflow: auto;
-  background: linear-gradient(#b0a5a5 30%, transparent 30%) no-repeat;
+  background: linear-gradient(#b0a5a5 30%, hsl(0, 100%, 100%) 30%) no-repeat;
 }
 
 .card-text ul {
@@ -202,12 +217,10 @@ img.card-icon {
   padding: 0;
   list-style: none;
   text-align: center;
-  color: #909090;
 }
 
 .price {
   font-size: 2em;
-  color: #494848;
 }
 
 .card-text li {
@@ -217,17 +230,12 @@ img.card-icon {
 
 .inquiries-pic img {
   height: 300px;
-  width: auto;
   float: right;
 }
 
-.inquiries-info {
-  width: 80%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+p.inquiries-info {
+  text-align: center;
+  background-color: #b0a5a5;
 }
 
 /*--------------Footer Styling--------------*/
@@ -301,14 +309,12 @@ a:hover {
 }
 
 img.social-icon {
-  max-width: auto;
   height: 50px;
   padding: 5px;
   fill: #fff;
 }
 
 #twitter {
-  max-width: auto;
   height: 50px;
   padding: 0px;
   fill: #fff;
