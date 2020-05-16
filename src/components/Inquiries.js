@@ -6,7 +6,7 @@ const Inquiries = () => {
     <div className="container">
       <div className="row">
         <div className="col-sm inquiries-info">
-          <p>
+          <p className="inquiries-info">
             To get started learning with me, or for other business inquiries,
             please send me an email at official.abbypee@gmail.com. Serious
             inquiries only please!

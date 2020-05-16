@@ -15,6 +15,23 @@ ul {
   padding-left: 0;
 }
 
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: hsl(37, 100%, 50%);
+}
+
 .container {
   flex: 1;
 }
@@ -134,7 +151,7 @@ div.profile-text {
 /*--------------Video List Section--------------*/
 .videos {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .col-sm-6.video-list {
@@ -182,7 +199,7 @@ div.profile-text {
 /*--------------  Pricing Cards----------*/
 h1.pricing {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #card {
@@ -229,8 +246,15 @@ img.card-icon {
   padding: 10px 0;
 }
 /*--------------Inquiries Styling--------------*/
-p.inquiries-info {
+.col-sm.inquiries-info {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+p.inquiries-info {
+  border-left: 3px solid hsl(37, 100%, 50%);
 }
 
 .inquiries-pic img {
@@ -240,14 +264,18 @@ p.inquiries-info {
 
 /*--------------Footer Styling--------------*/
 footer {
-  background-color: hsl(11, 75%, 72.5%);
+  background-color: hsl(11, 65%, 72.5%);
   color: #fff;
   line-height: 1.5;
 }
 
 footer a {
   text-decoration: none;
-  color: #eee;
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
 }
 
 a:hover {
