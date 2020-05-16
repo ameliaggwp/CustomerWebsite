@@ -342,18 +342,10 @@ img.social-icon {
   fill: #eee;
 }
 
-img.social-icon:hover {
-  fill: #ffffff;
-}
-
 #twitter {
   height: 50px;
   padding: 0px;
   fill: #eee;
-}
-
-#twitter:hover {
-  fill: #ffffff;
 }
 
 img.social-icon::selection {

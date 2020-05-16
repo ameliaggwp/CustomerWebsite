@@ -1,8 +1,8 @@
 {
   "name": "abby-site",
   "version": "0.1.0",
-  "homepage": "https://ameliaggwp.github.io/InfluencerWebsite/",
   "private": true,
+  "homepage": "https://ameliaggwp.github.io/InfluencerWebsite/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
