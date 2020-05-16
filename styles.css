@@ -1,0 +1,357 @@
+/*--------------- basic styling --------------- */
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  color: hsl(212, 56%, 16%);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: hsl(37, 100%, 50%);
+}
+
+.container {
+  flex: 1;
+}
+
+.col-sm-6 {
+  height: 500px;
+  position: relative;
+}
+
+.videos-pricing-wrapper {
+  background: linear-gradient(
+      transparent 0,
+      transparent 30%,
+      hsl(213, 88.8%, 91.1%) 30%,
+      hsl(213, 88.8%, 91.1%) 70%,
+      transparent 60%,
+      transparent 100%
+    )
+    no-repeat;
+}
+
+/*--------------Header and Link Styling----------*/
+a {
+  color: hsl(220, 72%, 18%);
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: hsl(11, 100%, 97.5%);
+}
+
+.nav-link.main {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  vertical-align: bottom;
+  line-height: 50px;
+}
+
+.nav-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  vertical-align: bottom;
+  line-height: 50px;
+}
+
+li.nav-item {
+  display: inline;
+  float: right;
+}
+/*-------------- About Section ----------*/
+.about {
+  margin: 0%;
+  background: linear-gradient(hsl(11, 100%, 97.5%) 45%, transparent 45%)
+    no-repeat;
+  background-color: hsl(0, 100%, 100%);
+}
+
+article {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.korean {
+  font-family: "Gamja Flower", cursive;
+}
+
+.col-sm-6.profile {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.profile-inner {
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.profile-pic img {
+  height: 300px;
+  width: auto;
+}
+
+.profile-blurb {
+  font-weight: 400;
+  font-size: 24px;
+  height: 200px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.profile-blurb p {
+  text-align: center;
+}
+
+div.profile-text {
+  display: table;
+}
+
+.breaker {
+  color: hsl(37, 100%, 50%);
+  margin: 12px;
+}
+
+/*--------------Video List Section--------------*/
+.videos {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.col-sm-6.video-list {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+/*--------------Animations for video selector--------------*/
+.video-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.video-item:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.video-card.title {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 50%; /* Adjust this value to move the positioned div up and down */
+  background: hsl(212, 56%, 16%, 0.75);
+  font-weight: 700;
+  color: #fff;
+  width: 80%; /* Set the width of the positioned div */
+}
+
+/*-------------- Video Detail ----------*/
+
+.video-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.wrapper {
+  margin-top: 10%;
+}
+
+/*--------------  Pricing Cards----------*/
+h1.pricing {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#card {
+  height: 400px;
+  border-radius: 10px;
+}
+
+img.card-icon {
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+  z-index: 1;
+}
+
+.card-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.pricing-container {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.card.text-center {
+  margin: 0 auto;
+  min-width: 280px;
+  max-width: 100%;
+  position: relative;
+  overflow: auto;
+}
+
+.card-text ul {
+  margin: 24 24;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.price {
+  font-size: 2em;
+}
+
+.card-text li {
+  padding: 10px 0;
+}
+/*--------------Inquiries Styling--------------*/
+.col-sm.inquiries-info {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+p.inquiries-info {
+  border-left: 3px solid hsl(37, 100%, 50%);
+}
+
+.inquiries-pic img {
+  height: 300px;
+  float: right;
+}
+
+/*--------------Footer Styling--------------*/
+footer {
+  background-color: hsl(11, 65%, 72.5%);
+  color: #fff;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem /*200px*/;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+  .ft-main {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+
+.ft-credits {
+  padding: 0.9375rem 1.875rem;
+}
+
+.ft-credits-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-credits-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-credits-list li:nth-last-child(2) {
+  flex: 1; /* same as flex-grow: 1; */
+}
+
+/*-------------- Styling for social brands----------*/
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px hsl(11, 75%, 72.5%) solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+img.social-icon {
+  height: 50px;
+  padding: 5px;
+  fill: #fff;
+}
+
+#twitter {
+  height: 50px;
+  padding: 0px;
+  fill: #fff;
+}
+
+img.social-icon::selection {
+  color: #fff;
+}
+
+#invert {
+  filter: invert(100%);
+}

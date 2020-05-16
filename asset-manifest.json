@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/InfluencerWebsite/static/js/main.2fc4f46e.chunk.js",
+    "main.js.map": "/InfluencerWebsite/static/js/main.2fc4f46e.chunk.js.map",
+    "runtime-main.js": "/InfluencerWebsite/static/js/runtime-main.9eede078.js",
+    "runtime-main.js.map": "/InfluencerWebsite/static/js/runtime-main.9eede078.js.map",
+    "static/js/2.a7f3f921.chunk.js": "/InfluencerWebsite/static/js/2.a7f3f921.chunk.js",
+    "static/js/2.a7f3f921.chunk.js.map": "/InfluencerWebsite/static/js/2.a7f3f921.chunk.js.map",
+    "index.html": "/InfluencerWebsite/index.html",
+    "precache-manifest.70d341ad60f1c833e1d0e394ab86f9f5.js": "/InfluencerWebsite/precache-manifest.70d341ad60f1c833e1d0e394ab86f9f5.js",
+    "service-worker.js": "/InfluencerWebsite/service-worker.js",
+    "static/js/2.a7f3f921.chunk.js.LICENSE.txt": "/InfluencerWebsite/static/js/2.a7f3f921.chunk.js.LICENSE.txt",
+    "static/media/Chat.2cc03799.png": "/InfluencerWebsite/static/media/Chat.2cc03799.png",
+    "static/media/Crop2.5277a16d.png": "/InfluencerWebsite/static/media/Crop2.5277a16d.png",
+    "static/media/Docicon.066c9c6c.png": "/InfluencerWebsite/static/media/Docicon.066c9c6c.png",
+    "static/media/Tutoring.df90825c.png": "/InfluencerWebsite/static/media/Tutoring.df90825c.png",
+    "static/media/TwitchGlitchWhite.svg": "/InfluencerWebsite/static/media/TwitchGlitchWhite.c984e73f.svg",
+    "static/media/Twitter_Logo_Blue.svg": "/InfluencerWebsite/static/media/Twitter_Logo_Blue.d8a9f54e.svg",
+    "static/media/abbyProfile.JPG": "/InfluencerWebsite/static/media/abbyProfile.d73c6618.JPG",
+    "static/media/glyph-logo_May2016.aaa207e2.png": "/InfluencerWebsite/static/media/glyph-logo_May2016.aaa207e2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9eede078.js",
+    "static/js/2.a7f3f921.chunk.js",
+    "static/js/main.2fc4f46e.chunk.js"
+  ]
+}
