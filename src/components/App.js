@@ -12,7 +12,7 @@ const App = () => {
     <React.Fragment>
       <Header />
       <About />
-      <div className="videos-pricing">
+      <div className="videos-pricing-wrapper">
         <Videos />
         <PricingCards />
       </div>

@@ -11,7 +11,6 @@ const Card = ({ icon, price, service, description }) => {
           <div className="pricing-card icon">
             <img className="card-icon" src={icon} alt={icon} />
           </div>
-
           <h4 className="card-title">{service}</h4>
           <div className="card-text">
             {description}
