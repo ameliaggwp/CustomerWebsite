@@ -66,9 +66,9 @@ a:hover {
 }
 
 .nav-link.main {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Permanent Marker", cursive;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 40px;
   vertical-align: bottom;
   line-height: 50px;
 }
@@ -345,7 +345,6 @@ img.social-icon {
 #twitter {
   height: 50px;
   padding: 0px;
-  fill: red;
 }
 
 img.social-icon::selection {
