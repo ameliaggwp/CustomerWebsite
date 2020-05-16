@@ -339,17 +339,17 @@ a:hover {
 img.social-icon {
   height: 50px;
   padding: 5px;
-  fill: #eee;
+  fill: #fff;
 }
 
 #twitter {
   height: 50px;
   padding: 0px;
-  fill: #eee;
+  fill: #fff;
 }
 
 img.social-icon::selection {
-  color: #eee;
+  color: #fff;
 }
 
 #invert {
