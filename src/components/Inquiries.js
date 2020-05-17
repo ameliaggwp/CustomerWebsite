@@ -8,8 +8,9 @@ const Inquiries = () => {
         <div className="col-sm inquiries-info">
           <p className="inquiries-info">
             To get started learning with me, or for other business inquiries,
-            please send me an email at official.abbypee@gmail.com. Serious
-            inquiries only please!
+            please send me an email at{" "}
+            <strong>official.abbypee@gmail.com</strong>. Serious inquiries only
+            please!
             <br />
             <br />
             Media Kit available on request!

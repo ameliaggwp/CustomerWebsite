@@ -3,7 +3,7 @@ import chatIcon from "./assets/Chat.png";
 import tutorIcon from "./assets/Tutoring.png";
 import fileIcon from "./assets/Docicon.png";
 
-const Card = ({ icon, price, service, description }) => {
+const Card = ({ icon, price, unit, service, description }) => {
   return (
     <div className="col-sm pricing-col">
       <div className="card text-center" id="card">
@@ -11,11 +11,13 @@ const Card = ({ icon, price, service, description }) => {
           <div className="pricing-card icon">
             <img className="card-icon" src={icon} alt={icon} />
           </div>
+
           <h4 className="card-title">{service}</h4>
-          <div className="card-text">
-            {description}
-            <div className="price">{price}</div>
+          <div>
+            <span className="price">{price}</span>
+            <strong>{unit}</strong>
           </div>
+          <div className="card-text">{description}</div>
         </div>
       </div>
     </div>
@@ -34,7 +36,8 @@ const PricingCards = () => {
       <div className="row">
         <Card
           icon={fileIcon}
-          price="15$/flat-rate"
+          price="15$"
+          unit="/flat-rate"
           service="Worksheets"
           description={
             <ul>
@@ -45,7 +48,8 @@ const PricingCards = () => {
         />
         <Card
           icon={chatIcon}
-          price="30$/30 mins"
+          price="30$"
+          unit="/30 mins"
           service="Conversation Practice"
           description={
             <ul>
@@ -56,12 +60,13 @@ const PricingCards = () => {
         />
         <Card
           icon={tutorIcon}
-          price="60$/1 hr"
+          price="60$"
+          unit="/1 hr"
           service="Personal Tutoring"
           description={
             <ul>
               <li>Video-chat session</li>
-              <li>Formulated individual lessons + worksheets</li>
+              <li>Formulated individual lesson plan</li>
             </ul>
           }
         />
