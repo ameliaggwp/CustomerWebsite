@@ -75,7 +75,7 @@ a:hover {
 
 .nav-link {
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 24px;
   vertical-align: bottom;
   line-height: 50px;
@@ -102,7 +102,6 @@ article {
 }
 
 .korean {
-  font-family: "Gamja Flower", cursive;
 }
 
 .col-sm-6.profile {
@@ -167,6 +166,8 @@ div.profile-text {
 
 .video-item:hover {
   transform: scale(1.1);
+  transition: transform 200ms ease-in;
+
   z-index: 1;
   cursor: pointer;
 }
@@ -217,6 +218,7 @@ img.card-icon {
 .card-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
+  color: hsl(212, 16%, 66%);
 }
 .pricing-container {
   margin-top: 1%;
@@ -229,13 +231,16 @@ img.card-icon {
   max-width: 100%;
   position: relative;
   overflow: auto;
+  -moz-box-shadow: 0px 0px 10px hsl(212, 26%, 56%);
+  -webkit-box-shadow: 0px 0px 10px hsl(212, 26%, 56%);
+  box-shadow: 0px 0px 10px hsl(212, 26%, 56%);
 }
 
 .card-text ul {
-  margin: 24 24;
   padding: 0;
   list-style: none;
   text-align: center;
+  border-top: 1px hsl(212, 16%, 86%) solid;
 }
 
 .price {
@@ -243,7 +248,9 @@ img.card-icon {
 }
 
 .card-text li {
+  margin-top: 10px;
   padding: 10px 0;
+  color: hsl(212, 16%, 46%);
 }
 /*--------------Inquiries Styling--------------*/
 .col-sm.inquiries-info {
