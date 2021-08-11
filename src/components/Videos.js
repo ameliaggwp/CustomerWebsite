@@ -3,7 +3,7 @@ import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
-const KEY = "AAIzaSyCuvCPPrvsO4wVfasa3Tnz9kL0fnK9lIQ0";
+const KEY = "AIzaSyCuvCPPrvsO4wVfasa3Tnz9kL0fnK9lIQ0";
 
 export class Videos extends React.Component {
   state = {
