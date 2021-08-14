@@ -208,6 +208,10 @@ h1.pricing {
   border-radius: 10px;
 }
 
+.col-sm.pricing-col {
+  margin-top: 5px;
+}
+
 img.card-icon {
   height: 150px;
   border-radius: 50%;
