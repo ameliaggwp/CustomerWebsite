@@ -1,27 +1,12 @@
 {
-  "files": {
-    "main.js": "/static/js/main.ebd44524.chunk.js",
-    "main.js.map": "/static/js/main.ebd44524.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4b16ef09.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4b16ef09.js.map",
-    "static/js/2.a7f3f921.chunk.js": "/static/js/2.a7f3f921.chunk.js",
-    "static/js/2.a7f3f921.chunk.js.map": "/static/js/2.a7f3f921.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.273e1c8df6bf1e2ed76cebbb78380db8.js": "/precache-manifest.273e1c8df6bf1e2ed76cebbb78380db8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.a7f3f921.chunk.js.LICENSE.txt": "/static/js/2.a7f3f921.chunk.js.LICENSE.txt",
-    "static/media/Chat.2cc03799.png": "/static/media/Chat.2cc03799.png",
-    "static/media/Crop2.5277a16d.png": "/static/media/Crop2.5277a16d.png",
-    "static/media/Docicon.066c9c6c.png": "/static/media/Docicon.066c9c6c.png",
-    "static/media/Tutoring.df90825c.png": "/static/media/Tutoring.df90825c.png",
-    "static/media/TwitchGlitchWhite.svg": "/static/media/TwitchGlitchWhite.1e1a70ab.svg",
-    "static/media/Twitter_Logo_Blue.svg": "/static/media/Twitter_Logo_Blue.d8a9f54e.svg",
-    "static/media/abbyProfile.JPG": "/static/media/abbyProfile.d73c6618.JPG",
-    "static/media/glyph-logo_May2016.aaa207e2.png": "/static/media/glyph-logo_May2016.aaa207e2.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.4b16ef09.js",
-    "static/js/2.a7f3f921.chunk.js",
-    "static/js/main.ebd44524.chunk.js"
-  ]
+  "main.js": "static/js/main.4fc50fe9.js",
+  "main.js.map": "static/js/main.4fc50fe9.js.map",
+  "static/media/Chat.png": "static/media/Chat.d0b2134a.png",
+  "static/media/Crop2.png": "static/media/Crop2.2192daf8.png",
+  "static/media/Docicon.png": "static/media/Docicon.3c43d52d.png",
+  "static/media/Tutoring.png": "static/media/Tutoring.089a47bb.png",
+  "static/media/TwitchGlitchWhite.svg": "static/media/TwitchGlitchWhite.c984e73f.svg",
+  "static/media/Twitter_Logo_Blue.svg": "static/media/Twitter_Logo_Blue.d8a9f54e.svg",
+  "static/media/abbyProfile.JPG": "static/media/abbyProfile.d73c6618.JPG",
+  "static/media/glyph-logo_May2016.png": "static/media/glyph-logo_May2016.0e84d592.png"
 }
